@@ -1,12 +1,25 @@
-chrome_location = '/Users/alexdezho/Documents/Personal/chromedriver'
 from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import pytest
-import mysql.connector
+chrome_location = '/Users/alexdezho/Documents/Personal/chromedriver'
+
+'''
+from Functions.MySQL_server_template import alex_sql_modules, db, query_create_new_table_with_items, query_select_from
+sql = alex_sql_modules(db, query_create_new_table_with_items, query_select_from)
 
 
+
+def test_my_sql_connection():
+    sql.mysql_check_db_connection()
+    assert str(type(sql.mysql_check_db_connection())) == "<class 'mysql.connector.connection.MySQLConnection'>", 'no connection'
+
+
+def test_check_name_in_sql_table():
+    results = sql.mysql_print_table_and_items()
+    assert str(results).find('alex dezho') != -1, 'alex not found'
+'''
 
 @pytest.fixture
 def fixture_func_hi():
