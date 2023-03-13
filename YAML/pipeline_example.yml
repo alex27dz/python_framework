@@ -24,5 +24,6 @@ steps:
   - script: |
       pip install pytest-html
       pytest -v Tests/test_second_suit.py --junitxml=junit/test-results.xml --html=report.html
+      pytest -v Tests/test_scenarios.py --junitxml=junit/test-results.xml --html=report.html
     displayName: 'Third step/task - Run tests + Publish HTML test results report'
 
