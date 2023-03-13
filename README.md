@@ -1,3 +1,15 @@
+Terminal only:
+- Install Python 
+- Install Pip
+- Install Virtual environment
+- Activating virtual environment
+- Install packages and work with python
+
+Virtual Machine as an Agent:
+- Download the Azure agent 
+- Navigate to the agent folder via terminal 
+- ./run.sh - to start the agent - listening to jobs
+- Control + C - to stop the agent
 
 
 * Makefile, YML pipeline - By using a Makefile, developers can automate the build process and ensure that the project is built correctly and consistently across different platforms and environments. This can save time and reduce errors, particularly in larger projects with many dependencies and configurations.
