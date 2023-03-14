@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="8.150" timestamp="2023-03-12T23:29:17.537291" hostname="Alexs-MBP.ht.home"><testcase classname="test_second_suit" name="test01_bmw_elements" time="8.032" /></testsuite></testsuites>
